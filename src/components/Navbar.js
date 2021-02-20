@@ -8,6 +8,7 @@ import tolu from '../assets/tolu.svg';
 import Users from './Users';
 import woman from '../assets/woman-shoppingbag-card.svg';
 import Vendors from './Vendors';
+import Footer from './Footer';
 
 
 export default function NavbarTab() {
@@ -103,6 +104,8 @@ export default function NavbarTab() {
             </section>
 
             <Vendors/>
+
+            <Footer/>
         </div>
     )
 }

@@ -226,3 +226,105 @@ button.btn.btn-primary {
   font-weight: 600;
 }
 
+/* FOOTER */
+.footer{
+  background: #25201D;
+  color: #fff;
+}
+
+.footer_left img{
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+  top: -2rem;
+}
+
+.footer_right{
+  padding-top: 100px;
+}
+
+.footer_right h3{
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.footer_right p{
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  padding-top: 1.5rem;
+}
+
+input#inlineFormInputGroup {
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+}
+
+input#inlineFormInputGroup::placeholder{
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.mb-2.input-group {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: .3rem;
+}
+
+.input-group-prepend {
+  background: #FFFFFF;
+  box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
+  border-radius: 4px;
+  color: #242120;
+}
+
+span.input-group-text {
+  background: #FFFFFF;
+  color: #242120;
+  font-weight: 700;
+  box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
+  border-radius: 4px !important;
+}
+
+.footer_links h6{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.footer_links ul{
+  padding-left: 0;
+}
+
+.footer_links ul li{
+  text-decoration: none;
+  list-style: none;
+  padding-top: 10px;
+  font-family: Roboto;
+  letter-spacing: 0.02em;
+
+}
+
+.footer_links ul li a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.footer_links img{
+  margin-left: 10px;
+}
