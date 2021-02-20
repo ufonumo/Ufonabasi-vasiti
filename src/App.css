@@ -328,3 +328,70 @@ span.input-group-text {
 .footer_links img{
   margin-left: 10px;
 }
+
+/* TESTIMONIAL FORM */
+.testimonial{
+  background: #FFFFFF;
+  border-radius: 16px;
+  width: fit-content;
+  padding: 3rem .8rem;
+}
+
+.testimonial h3{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding-bottom: 1.8rem;
+}
+
+label.form-label {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #676767;
+}
+
+.col .form-control{
+  font-family: Roboto;
+  background: #FEFEFE;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+label.custom-file-label {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #676767;
+}
+
+label.form-check-label {
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #242120;
+}
+
+
+input.form-check-input:checked ~ .checkmark {
+  background-color: #FF5C00 !important;
+
+}
+
+.btn_form{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+button.pl-5.pr-5.pt-3.pb-3.btn.btn-primary {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}

@@ -9,7 +9,8 @@ import Users from './Users';
 import woman from '../assets/woman-shoppingbag-card.svg';
 import Vendors from './Vendors';
 import Footer from './Footer';
-
+import FormTestimonial from './Form'
+import { Switch, Route,Link} from "react-router-dom";
 
 export default function NavbarTab() {
     return (
@@ -72,7 +73,8 @@ export default function NavbarTab() {
                             <p>I had the best experience shopping with vasiti. Usability of the website was great, very good customer service,
                              an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti.
                               Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!</p>
-                              <a href="">Share your own story!</a>
+                              
+                              <Link to="/FormTestimonial" >Share your own story!</Link> 
 
                               <div className="share"> </div>
                         </div>
@@ -92,8 +94,8 @@ export default function NavbarTab() {
                             <p>I had the best experience shopping with vasiti. Usability of the website was great, very good customer service,
                              an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti.
                               Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!</p>
-                              <a href="">Share your own story!</a>
-
+                              
+                              <Link to="/FormTestimonial" >Share your own story!</Link> 
                               <div className="share"> </div>
                         </div>
                         <div className="col-lg-6  experience_left_two">
