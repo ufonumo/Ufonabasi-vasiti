@@ -50,7 +50,6 @@ export default function FormTestimonial() {
                     </Row>
                     <div className='btn_form'>
                        <Button className='pl-5 pr-5 pt-3 pb-3'>Share your story!</Button>
-
                     </div>
 
                 </Form>

@@ -230,6 +230,7 @@ button.btn.btn-primary {
 .footer{
   background: #25201D;
   color: #fff;
+  padding-bottom: 3rem;
 }
 
 .footer_left img{
@@ -297,7 +298,7 @@ span.input-group-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 19px;
   color: #FFFFFF;
 }
@@ -394,4 +395,49 @@ button.pl-5.pr-5.pt-3.pb-3.btn.btn-primary {
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+}
+
+/* RESPONSE */
+.response{
+  width: fit-content;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.response h3{
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #000000;
+}
+
+.response .close_btn{
+  background: #FF5C00;
+  box-shadow: 2px 8px 30px rgba(230, 83, 0, 0.18);
+  border-radius: 8px;
+  padding: 1rem 3rem;
+}
+
+.response p{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+@media(max-width: 768px){
+  .response{
+
+    border-radius: 16px;
+    padding: 1rem;
+  }
+  
+  .response p{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
 }
