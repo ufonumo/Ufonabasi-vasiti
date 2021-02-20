@@ -1,49 +1,43 @@
 import React from 'react';
-import EllipseOne from '../assets/Ellipse 22.svg'
-import EllipseTwo from '../assets/Ellipse 23.svg'
-import EllipseThree from '../assets/Ellipse 24.svg'
-import EllipseFour from '../assets/Ellipse 25.svg'
-import EllipseFive from '../assets/Ellipse 26.svg'
-import EllipseSix from '../assets/Ellipse 27.svg'
+import EllipseOne from '../assets/Ellipse 27.svg'
+import EllipseTwo from '../assets/Ellipse 28.svg'
+import EllipseThree from '../assets/Ellipse 29.svg'
+import EllipseFour from '../assets/Ellipse 30.svg'
+import EllipseFive from '../assets/Ellipse 31.svg'
+import EllipseSix from '../assets/Ellipse 32.svg'
 
-export default function Users() {
+export default function Vendors() {
 
-    const userData = [
+    const vendorData = [
         {
-            name: `Joseph Ike `,
-            type: 'CUSTOMER',
-            location: 'In Ikeja',
+            name: `Temi Obadofin `,
+            type: 'VENDOR',
             image: EllipseOne,
             description: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.`,
         },
         {
-            name: `Adetola Fashina `,
-            type: 'CUSTOMER',
-            location: 'Ibadan',
+            name: `Promise Ejiofor `,
+            type: 'VENDOR',
             image: EllipseTwo,
             description: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.`,
         },  {
-            name: `Emmanuel Fayemi `,
-            type: 'CUSTOMER',
-            location: 'In Akoka',
+            name: `Feyisola Arinola `,
+            type: 'VENDOR',
             image: EllipseThree,
             description: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.`,
         },  {
-            name: `Chisom Obilor `,
+            name: `Karen Ibeh `,
             type: 'VENDOR',
-            location: 'In Magodo',
             image: EllipseFour,
             description: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.`,
         },  {
-            name: `Adunoluwa Adeyemi `,
+            name: `Oluchi Uzo `,
             type: 'VENDOR',
-            location: 'In Ikeja',
             image: EllipseFive,
             description: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.`,
         },  {
-            name: `Chidi Okeke `,
+            name: `Amos Okafor `,
             type: 'VENDOR',
-            location: 'In Ikeja',
             image: EllipseSix,
             description: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.`,
         },  
@@ -53,16 +47,13 @@ export default function Users() {
         <div>
             <section className="users container">
                 <div className="row ">
-                    {userData.map((list, index) =>(
+                    {vendorData.map((list, index) =>(
                         <div className="col-lg-4 user_list" key={index}>
                             <div className="image">
                                 <img src={list.image} alt="profile images"/>
                             </div>
                             <h6>{list.name}</h6>
-                            <div className="user_location">
-                                <p>{list.location}</p>
-                                <p className='user_type'>{list.type}</p>
-                            </div>
+                            <p className='vendor_type'>{list.type}</p>
                             <p>{list.description}</p>
                         </div>
                     ))}

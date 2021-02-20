@@ -5,6 +5,9 @@ import Vasiti from '../assets/Vasiti-Logo-black.svg';
 import Button from 'react-bootstrap/Button';
 import testiImage from '../assets/Testimonial image.svg';
 import tolu from '../assets/tolu.svg';
+import Users from './Users';
+import woman from '../assets/woman-shoppingbag-card.svg';
+import Vendors from './Vendors';
 
 
 export default function NavbarTab() {
@@ -75,7 +78,31 @@ export default function NavbarTab() {
                     </div>
                 </div>
             </section>
-         
+
+            <Users/>
+
+            <section className="experience_two">
+                <div className='container exp_top_two'>
+                    <div className="row">
+                        
+                        <div className="col-lg-6 mr-auto experience_right_two">
+                            <h4>Tolu & Joy’s Experience</h4>
+                            <sub> VENDOR</sub>
+                            <p>I had the best experience shopping with vasiti. Usability of the website was great, very good customer service,
+                             an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti.
+                              Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!</p>
+                              <a href="">Share your own story!</a>
+
+                              <div className="share"> </div>
+                        </div>
+                        <div className="col-lg-6  experience_left_two">
+                            <img src={woman} alt="woman with a bag"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <Vendors/>
         </div>
     )
 }

@@ -51,6 +51,10 @@ button.btn.btn-primary {
   color: #494949;
 }
 
+.home_right img{
+  width: 100%;
+}
+
 .experience{
   background: #222222;
 }
@@ -107,3 +111,118 @@ button.btn.btn-primary {
   background-repeat: no-repeat;
   height: 20px;
 }
+
+.users{
+  padding: 100px 0;
+}
+
+.user_list h6{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #474747;
+  padding-top: 2rem;
+}
+
+.user_location{
+  display: flex;
+}
+
+.user_location p{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #535353;
+}
+
+.user_location .user_type{
+  background: #EEF8FF;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #0D019A;
+  font-weight: 600;
+  padding: .5rem;
+  margin: 0 0 2rem 2rem;
+}
+
+.user_list p{
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #474747;
+}
+
+.image img{
+  width: auto;
+}
+
+.experience_two{
+  background: #FFF8F5;
+}
+
+.exp_top_two{
+  padding-top: 5rem;
+}
+
+.experience_left_two img{
+  width: 100%;
+}
+
+.experience_right_two{
+  color: #fff;
+  padding-top: 10px;
+}
+
+.experience_right_two h4{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.01em;
+  color: #242120;
+}
+
+.experience_right_two sub{
+  border: 1px solid rgba(255, 92, 0, 0.4);
+    box-sizing: border-box;
+  border-radius: 4px;
+  padding: .5rem;
+  font-size: 10px;
+  color: #FF5C00;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.experience_right_two p{
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #242120;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.experience_right_two a{
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FF5C00;
+  padding-top: 2rem;
+}
+
+.user_list .vendor_type{
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #049A01 !important;
+  background: #F0FFEE;
+  border-radius: 4px;
+  width: fit-content;
+  padding: .5rem;
+  font-weight: 600;
+}
+
