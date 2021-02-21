@@ -4,7 +4,7 @@ import FormControl from 'react-bootstrap/FormControl'
 import FormGroup from 'react-bootstrap/FormGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import { Switch, Route,Link} from "react-router-dom";
 import FormLabel from 'react-bootstrap/FormLabel'
 import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -49,7 +49,7 @@ export default function FormTestimonial() {
                         </Col>
                     </Row>
                     <div className='btn_form'>
-                       <Button className='pl-5 pr-5 pt-3 pb-3'>Share your story!</Button>
+                       <Button className='pl-5 pr-5 pt-3 pb-3'> <Link className='response_btn' to="/Response" >Share your own story!</Link> </Button>
                     </div>
 
                 </Form>
