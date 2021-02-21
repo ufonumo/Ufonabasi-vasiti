@@ -3,15 +3,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Vasiti from '../assets/Vasiti-Logo-black.svg';
 import Button from 'react-bootstrap/Button';
-import testiImage from '../assets/Testimonial image.svg';
-import tolu from '../assets/tolu.svg';
-import Users from './Users';
-import woman from '../assets/woman-shoppingbag-card.svg';
-import Vendors from './Vendors';
-import Footer from './Footer';
-import FormTestimonial from './Form'
+import menu from '../assets/menu.svg';
 import { Switch, Route,Link} from "react-router-dom";
-import Content from './Content';
 
 export default function NavbarTab() {
     return (
@@ -19,7 +12,7 @@ export default function NavbarTab() {
 
             <Navbar  className='container' expand="lg">
                 <Navbar.Brand href="#home"> <img src={Vasiti} alt=""/> </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" > <img src={menu} alt=""/> </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <span className ="Nav ml-auto">     
                         <Nav className="justify-content-center">
@@ -35,7 +28,7 @@ export default function NavbarTab() {
 
             <div className="border">
                 <Navbar className='container' expand="lg">
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" > <img src={menu} alt=""/> </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
 
                         <Nav className="mx-auto second_nav">
